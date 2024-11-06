@@ -4,20 +4,20 @@
 let horrorBook = {
     title: 'It',
     pageCount: 1140,
-    genre: 'Horror'
+    genre: 'Horror',
 }
 console.log(horrorBook);
 
 let dystopianBook = {
     title: 'Nineteen Eighty-Four',
     pageCount: 320,
-    genre: 'Dystopian'
+    genre: 'Dystopian',
 }
 console.log(dystopianBook);
 
 let adventureBook = {
     title: 'The Hobbit ',
     pageCount: 670,
-    genre: 'Adventure'
+    genre: 'Adventure',
 }
 console.log(adventureBook);

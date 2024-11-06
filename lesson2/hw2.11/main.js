@@ -6,7 +6,7 @@
 let x = false;
 
 if (!x) {
-    x = 'default'
+    x = 'default';
 }
 console.log(x);
 
