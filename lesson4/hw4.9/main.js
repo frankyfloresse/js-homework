@@ -42,5 +42,11 @@ function printUserList(arr) {
     }
 }
 
+// function printUserList(arr) {
+//     for (const { id, name, age } of arr) {
+//         document.write(`<div>${id}, ${name}, ${age}</div>`);
+//     }
+// } // деструктуризация
+
 printUserList(users);
 

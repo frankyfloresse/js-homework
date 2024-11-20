@@ -37,6 +37,7 @@ let redCards = deck.filter(card => card.color === 'red');
 console.log(redCards);
 
 let diamondCards = deck.filter(card => card.cardSuit === 'diamond');
+// let diamondCards = deck.filter(({ cardSuit }) => cardSuit === 'diamond'); //деструктуризация
 console.log(diamondCards);
 
 let clubsCads = deck.filter(card => card.cardSuit === 'clubs' && ['10', 'jack', 'queen', 'king', 'ace'].includes(card.value));
