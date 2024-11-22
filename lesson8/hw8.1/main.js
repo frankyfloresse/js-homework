@@ -9,8 +9,35 @@ let cat1 = {
     paws: 4,
     say() {
         console.log(this.name);
+    },
+    obj1: {
+        name: 1,
+        obj2: {
+            surname: 2
+        },
     }
 };
+
+result = {
+    name: 'Semka',
+    age: 1,
+};
+
+// function deepCopy(obj) {
+//     let result = {};
+//
+//     for (const key in obj) {
+//         if (typeof obj[key] === 'object') {
+//             result[key] = deepCopy(obj[key])
+//         } else {
+//             result[key] = obj[key]
+//         }
+//     }
+//
+//     return result
+// }
+//
+// console.log('deep', deepCopy(cat1));
 
 function makeDeepCopy(obj) {
     if (obj) {
