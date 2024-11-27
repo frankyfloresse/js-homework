@@ -11,12 +11,12 @@ userForm.addEventListener('submit', function (e) {
      let user = {
          name: this.userName.value,
          surname: this.userSurname.value,
-         age: +this.userAge.value
+         age: +this.userAge.value,
      };
 
      let div = document.createElement('div');
      div.innerText = `${user.name} ${user.surname} ${user.age || ''}`;
-     document.body.append(div);
+     document.body.appendChild(div);
 });
 
 
